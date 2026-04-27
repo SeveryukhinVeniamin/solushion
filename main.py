@@ -30,7 +30,7 @@ def sample_file_upload():
                                     <label for="photo">Выберите файл</label>
                                     <input type="file" class="form-control-file" id="photo" name="file">
                                 </div>
-                                <img src='static/img/photo.png'>
+                                <img src='static/img/photo.png' width=500 height=500 >
                                 <button type="submit" class="btn btn-primary">Отправить</button>
                             </form>
                           </body>
